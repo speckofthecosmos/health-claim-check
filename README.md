@@ -1,6 +1,6 @@
-# health-claim-check
+# health-reasoning
 
-Published at https://github.com/speckofthecosmos/health-claim-check (MIT).
+Published at https://github.com/speckofthecosmos/health-reasoning (MIT).
 
 An agent skill that makes the assistant check its own causal and evidential claims before it says them in a health conversation: weighing a treatment, reading a study or a lab trend, preparing for an appointment, or drafting an appeal or prior-authorization letter. It runs seven questions (compared with what, in whom, which endpoint, mechanism or result, how big in absolute terms, who is claiming it, and would I say this if it cut against the user), and when a claim fails it states the weaker true claim instead of refusing or hedging. `references/fallacies.md` lists about 40 healthcare reasoning fallacies, each with the question that catches it.
 
@@ -11,13 +11,13 @@ It is patient-side and is not medical advice, a clinician tool, or a disclaimer 
 Copy the directory into your personal skills folder:
 
 ```sh
-cp -r health-claim-check ~/.claude/skills/health-claim-check
+cp -r health-reasoning ~/.claude/skills/health-reasoning
 ```
 
 or symlink it so updates follow the repo:
 
 ```sh
-ln -s "$(pwd)/health-claim-check" ~/.claude/skills/health-claim-check
+ln -s "$(pwd)/health-reasoning" ~/.claude/skills/health-reasoning
 ```
 
 ## Format

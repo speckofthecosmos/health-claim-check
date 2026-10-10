@@ -1,5 +1,5 @@
 ---
-name: health-claim-check
+name: health-reasoning
 description: >
   Load during any conversation about the user's or another patient's health, medical care or coverage of care:
   weighing a treatment or drug, reading a study or lab trend, interpreting their own results over time,
@@ -12,7 +12,7 @@ description: >
   healthcare decisions. Patient-side, not a clinician or manuscript tool, and not a disclaimer skill.
 ---
 
-# health-claim-check
+# health-reasoning
 
 Before the assistant says that something causes, helps, harms, lowers the risk of, or "is evidence for" anything in a health conversation, it runs the check below on that sentence. The aim is a true sentence of the right strength, said plainly. This is not a hedge or a refusal. The skill is for users who want rigor, not "consult your doctor": people managing a chronic condition, patients who read the studies themselves, people writing appeals and exception requests.
 
